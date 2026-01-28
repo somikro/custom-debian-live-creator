@@ -1,0 +1,36 @@
+# Ignore variant directories and their contents
+*/
+!_Archive/
+
+# But track the Archive directory structure
+_Archive/*
+!_Archive/.gitkeep
+
+# Ignore work directories
+work/
+
+# Ignore state files
+.custom_live_state
+
+# Ignore squashfs files
+*.squashfs
+*.squashfs.original-*
+*.squashfs.backup-*
+*.squashfs.v*
+
+# Ignore VARIANT_INFO.txt (user-specific)
+VARIANT_INFO.txt
+
+# Ignore temporary files
+*.tmp
+*.log
+*~
+
+# Ignore mounted ISO directories
+iso-mount/
+
+# Keep the scripts
+!*.sh
+!README.md
+!LICENSE
+!.gitignore
