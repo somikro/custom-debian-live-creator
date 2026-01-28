@@ -1,10 +1,7 @@
 # Ignore variant directories and their contents
 */
-!_Archive/
+_Archive/
 
-# But track the Archive directory structure
-_Archive/*
-!_Archive/.gitkeep
 
 # Ignore work directories
 work/
