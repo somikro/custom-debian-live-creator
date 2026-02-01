@@ -273,10 +273,6 @@ Scripts require root access. Always use `sudo`.
   - Initial release
   - Basic extract and write functionality
 
-## License
-
-This project is licensed under Creative Commons.
-
 ## Contributing
 
 Contributions are welcome! Please feel free to submit issues and pull requests.
